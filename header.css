@@ -1,0 +1,37 @@
+.header{
+    background-color: rgba(24,24,24,255);
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    border-color:rgba(37,37,37,255);;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display:flex;
+    align-items: center;
+}
+.name{
+    color:rgba(204,204,204,255);
+    font-family: 'Courier New', Courier, monospace, Arial;
+    font-weight: bold;
+    font-size: 18px;
+    padding:8px 15px;
+    flex:1;
+}
+.socials{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    padding:5px 5px;
+    margin-right:10px;
+}
+.icons{
+    height: 30px;
+    padding-top:3px;
+}
+.icons2{
+    height:34px;
+    padding-top:3px;
+    margin-left:-4px;
+}
